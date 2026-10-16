@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDEDED;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: #10CAF0;
+    height: 100px;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 900;
+}
+nav a i{
+    color: greenyellow;
+}
+
+nav p{
+    font-size: 25px;
+    color: white;
+}
+
+nav .save{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+nav .save .icon{
+    font-size: 30px;
+}
+
+nav .save .count{
+    background-color: white;
+    color: #10CAF0;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.products{
+    display: flex;
+    width: 1200px;
+    margin: 50px 150px;
+    gap: 50px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.products .product img{
+    width: 248px;
+    height: 250px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    object-fit: cover;
+}
+
+.products .product{
+    border: 2px solid #F0F8FE;
+    width: 250px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.products .product .title{
+    font-size: 22px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.products .product .overview{
+    margin: 10px;
+    color: #6E7082;
+    height: 60px;
+    font-size: 14px;
+}
+
+.products .product .price{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #10CAF0;
+}
+
+.counter{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F0F8FE;
+    border-radius: 30px;
+    padding: 6px 10px;
+    width: 160px;
+}
+
+.counter .m,
+.counter .p{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #10CAF0;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter .num{
+    width: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
